@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フォームのテスト</title>
+</head>
+<body>
+    <h1>フォームのテストページ</h1>
+    <form>
+        <label for="name">名前:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">メールアドレス:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">電話番号:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label>好きなさかな:</label><br>
+        <input type="radio" id="option1" name="category" value="option1">
+        <label for="option1">まぐろ</label><br>
+        <input type="radio" id="option2" name="category" value="option2">
+        <label for="option2">かつお</label><br><br>
+
+        <label>
+            <input type="checkbox" id="subscribe" name="subscribe"> ニュースレター購読
+        </label><br><br>
+
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>
